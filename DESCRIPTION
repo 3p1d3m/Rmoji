@@ -1,0 +1,24 @@
+Package: Rmoji
+Type: Package
+Title: Insert Emojis in R Scripts and Documents
+Version: 0.1.0
+Author: Berhe Tesfay [aut, cre] (<berhe.etsay@gmail.com>)
+Maintainer: Berhe Tesfay <berhe.etsay@gmail.com>
+Description: Provides functions and RStudio add-ins to insert emojis directly into 
+    R scripts, R Markdown, and Quarto documents. Includes shortcut support, a master 
+    emoji list, and Git commit emoji helpers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.4)
+Imports:
+    rstudioapi
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+URL: https://github.com/3p1d3m/Rmoji
+BugReports: https://github.com/3p1d3m/Rmoji/issues
+VignetteBuilder: knitr

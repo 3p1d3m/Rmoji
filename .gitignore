@@ -1,0 +1,51 @@
+# History and session data
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+.Rproj.user
+*.Rproj
+
+# R build-related files
+.Rcheck/
+.Rbuildignore
+
+# Documentation and reports
+*.pdf
+*.docx
+*.html
+*.tex
+*.log
+*.aux
+*.out
+*.Rmd
+*.knit.md
+
+# Temporary files
+*.swp
+*.tmp
+*~
+
+# Mac OS metadata
+.DS_Store
+
+# Packrat / renv
+packrat/
+renv/library/
+renv/python/
+renv/staging/
+renv.lock
+
+# Test coverage and debug files
+coverage/
+covr/
+*.gcov
+*.prof
+
+# Quarto
+*_files/
+*_cache/
+inst/doc
