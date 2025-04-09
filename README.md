@@ -101,7 +101,9 @@ by executing the following command from R:
 system("git push origin main")  # Replace "main" with your branch if different
 ```
 
-If you wanted tu put them all togther as well
+![](images/clipboard-1657100525.png)
+
+If you wanted to put them all together as well
 
 ``` r
 system("git add {Path/..} && git commit -m 'update' && git push") # replace the path with yours
