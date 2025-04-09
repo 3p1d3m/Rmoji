@@ -62,7 +62,13 @@ The main advantage of this package is to visually insert the emoji using
 the keyboard shortcut. To custom create a short cut, go to your
 `Rstudio-->Tools-->Modify keyboard shortcuts`, then search for
 `Emoji shortcut addin` and hit the short cut you want to assign in your
-keyboard. Mine is `Cmd + E`. Assign yours as you feel comfortable.
+keyboard. Mine is `Cmd + E`. Assign yours as you feel comfortable. Once
+the keyboard shortcut is assigned, a popup screen for input will be
+displayed on each encounter, and the Emoji name can be provided in the
+query. On clicking enter in your keyboard, it will insert the Emoji,
+without any code in the cursor line.
+
+![](images/clipboard-2642191616.png)
 
 # 🧠 About
 
