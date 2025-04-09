@@ -23,6 +23,7 @@
 *.out
 *.Rmd
 *.knit.md
+*_flags.R
 
 # Temporary files
 *.swp
