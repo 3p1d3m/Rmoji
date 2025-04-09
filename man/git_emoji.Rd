@@ -7,15 +7,16 @@
 git_emoji(name)
 }
 \arguments{
-\item{name}{The emoji name.}
+\item{name}{A character vector of emoji names (e.g., \code{"fire"}, \code{"heart"}, or country names).}
 }
 \value{
-Emoji string for use in git commit messages.
+A named character vector of emojis.
 }
 \description{
-Get emoji for Git commit messages.
+Get emoji(s) for Git commit messages by name.
 }
 \examples{
 # git_emoji("fire")
-# git_emoji("heart")
+# git_emoji(c("fire", "heart"))
+# git_emoji(c("Ethiopia", "UK", "Kenya"))
 }
