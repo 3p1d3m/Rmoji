@@ -1,18 +1,22 @@
 #' Emoji for Git Commit
 #'
-#' Get emoji for Git commit messages.
+#' Get emoji(s) for Git commit messages by name.
 #'
-#' @param name The emoji name.
+#' @param name A character vector of emoji names (e.g., \code{"fire"}, \code{"heart"}, or country names).
 #'
-#' @return Emoji string for use in git commit messages.
+#' @return A named character vector of emojis.
 #' @export
 #'
 #' @examples
 #' # git_emoji("fire")
-#' # git_emoji("heart")
+#' # git_emoji(c("fire", "heart"))
+#' # git_emoji(c("Ethiopia", "UK", "Kenya"))
 git_emoji <- function(name) {
-  if (!name %in% names(emoji_dict)) {
-    stop("Emoji name not found.")
+  missing <- setdiff(name, names(emoji_dict))
+
+  if (length(missing) > 0) {
+    stop("Emoji name(s) not found: ", paste(missing, collapse = ", "))
   }
-  return(emoji_dict[[name]])
+
+  return(emoji_dict[name])
 }
