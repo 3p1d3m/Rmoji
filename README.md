@@ -68,7 +68,44 @@ displayed on each encounter, and the Emoji name can be provided in the
 query. On clicking enter in your keyboard, it will insert the Emoji,
 without any code in the cursor line.
 
-![](images/clipboard-2642191616.png)
+![](images/clipboard-162067144.png)
+
+# 💻🔧Adding the Emoji to Your Commit Message
+
+Now, you can include the emoji in your Git commit message. Here’s an
+example of how to make a commit in Git, using the system() function to
+execute Git commands directly from R console:
+
+``` r
+system("git status") # to check the git status 
+
+system("git add {file}")  # Replace with your file name
+
+system("git add -a") # To push all changes at once, less recommende
+
+bug_emoji <- git_emoji("bug") # create the emojy you wanted to push
+
+commit_message <- paste("Fixed the issue with user authentication", bug_emoji)
+
+system(paste("git commit -m", shQuote(commit_message)))
+```
+
+## Pushing the Commit to GitHub
+
+If you want to push the commit to your GitHub repository, you can do so
+by executing the following command from R:
+
+``` r
+# Push the commit to the remote repository
+
+system("git push origin main")  # Replace "main" with your branch if different
+```
+
+If you wanted tu put them all togther as well
+
+``` r
+system("git add {Path/..} && git commit -m 'update' && git push") # replace the path with yours
+```
 
 # 🧠 About
 
