@@ -2,3 +2,11 @@ Name: Insert Emoji Addin
 Description: Opens popup to insert emoji
 Binding: insert_emoji_addin
 Interactive: true
+
+
+Name: shiny emoji
+Description: Opens popup to insert emoji
+Binding: shiny_emoji
+Interactive: true
+Keyboard Shortcut: Shift + E
+
