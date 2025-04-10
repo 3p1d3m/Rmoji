@@ -1,5 +1,5 @@
 
-# 📦 Rmoji 🎉
+# ![](images/clipboard-3121768695.png)
 
 The **Rmoji** package makes it easy to insert emojis 😎 into your R
 scripts, R Markdown, Quarto documents and your shiny dashboards and
@@ -79,7 +79,7 @@ the `emoji_list()` function and you can check the name.
 
 # 💻 Shiny addin and Keyboard Shortcut with Dropdown 🎉
 
-Since we have thousand of of emojis and sometime hard to remember them
+Since we have thousands of of emojis and sometime hard to remember them
 by name, there is a shiny option with drop-down to select the proper
 emoji. It is available in the addins as `shiny emoji` and it can also be
 assigned to any keyboard shortcut. in R studio go to
