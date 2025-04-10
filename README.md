@@ -70,7 +70,30 @@ without any code in the cursor line.
 
 ![](images/clipboard-162067144.png)
 
-# 💻🔧Adding the Emoji to Your Commit Message
+✅ this is quick cause you don’t have a shiny popup, and it inserts on a
+click.
+
+❌ The backlash is you you have to remember the name of the emoji.
+However you can also print all the emojis and names in the console using
+the `emoji_list()` function and you can check the name.
+
+# 💻 Shiny addin and Keyboard Shortcut with Dropdown 🎉
+
+Since we have thousand of of emojis and sometime hard to remember them
+by name, there is a shiny option with drop-down to select the proper
+emoji. It is available in the addins as `shiny emoji` and it can also be
+assigned to any keyboard shortcut. in R studio go to
+`Tools`—\>`modify keyboard shortcuts` —\>`shiny emoji` then hit the
+short cut you wanted in your keyboard. mine is `Shift + E`. This will
+pop up a shiny up with options to search and select form the drop down.
+
+![](images/clipboard-3251897769.png)
+
+❌ The only caveat is the shiny popup doesn’t go away by itself after
+inserting the emoji untli you click the ❌ 😞. However it is going to be
+🔧 soon❗
+
+# 💻🔧 Adding the Emoji to Your Commit Message
 
 Now, you can include the emoji in your Git commit message. Here’s an
 example of how to make a commit in Git, using the system() function to
