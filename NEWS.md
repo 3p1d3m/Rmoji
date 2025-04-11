@@ -9,4 +9,4 @@
 
 ## Improvements
 - Clean and minimal UI in the shiny add-in
-- Clipboard integration for easy pasting
+
