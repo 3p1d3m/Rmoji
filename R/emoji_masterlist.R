@@ -860,5 +860,18 @@ Slightly_Smiling_Face = "\U0001F642",
 Melting_Face = "\U0001FAE0",
 Winking_Face = "\U0001F609",
 Smiling_Face_with_Smiling_Eyes = "\U0001F60A",
-Smiling_Face_with_Halo = "\U0001F607"
+Smiling_Face_with_Halo = "\U0001F607",
+
+# Bullet point emojies
+
+blue_diamond = "\U1F539",         # 🔹
+orange_diamond = "\U1F538",       # 🔸
+red_triangle_up = "\U1F53A",      # 🔺
+red_triangle_down = "\U1F53B",    # 🔻
+small_black_square = "\u25AA",    # ▪️
+small_white_square = "\u25AB",    # ▫️
+classic_bullet = "\u2022",        # •
+arrowhead = "\u2794",             # ➔
+checkmark = "\u2705",             # ✅
+star = "\u2734"                   # ✴️
 )

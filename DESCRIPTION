@@ -27,3 +27,4 @@ Suggests:
 URL: https://github.com/3p1d3m/Rmoji
 BugReports: https://github.com/3p1d3m/Rmoji/issues
 Config/testthat/edition: 3
+VignetteBuilder: knitr
