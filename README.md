@@ -1,5 +1,10 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
-# ![](images/package_logo.png)
+# ![](inst/images/package_logo.png)
 
 The **Rmoji** package makes it easy to insert emojis 😎 into your R
 scripts, R Markdown, Quarto documents and your shiny dashboards and
@@ -68,7 +73,7 @@ displayed on each encounter, and the Emoji name can be provided in the
 query. On clicking enter in your keyboard, it will insert the Emoji,
 without any code in the cursor line.
 
-![](images/keyboard_shortcut_example.png)
+![](inst/images/keyboard_shortcut_example.png)
 
 ✅ this is quick cause you don’t have a shiny popup, and it inserts on a
 click.
@@ -87,7 +92,7 @@ assigned to any keyboard shortcut. in R studio go to
 short cut you wanted in your keyboard. mine is `Shift + E`. This will
 pop up a shiny up with options to search and select form the drop down.
 
-![](images/shiny_example.png)
+![](inst/images/shiny_example.png)
 
 # 💻🔧 Adding the Emoji to Your Commit Message
 
@@ -120,7 +125,7 @@ by executing the following command from R:
 system("git push origin main")  # Replace "main" with your branch if different
 ```
 
-![](images/git_example.png)
+![](inst/images/git_example.png)
 
 If you wanted to put them all together as well
 
@@ -140,4 +145,4 @@ To cite the {Rmoji} package in publications, use: Tesfay, BE. (2025).
 {Rmoji}: A package for inserting emojis in RStudio. R package version
 0.1.0. Available at: <https://github.com/3p1d3m/Rmoji>
 
-🥲 can I be cited though❓ I ’m an emoji😄
+🥲 can I be cited though❓ I ’m an emoji 😄
