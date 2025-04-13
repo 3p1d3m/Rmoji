@@ -2,11 +2,13 @@ Package: Rmoji
 Type: Package
 Title: Insert Emojis in R Scripts and Documents
 Version: 0.1.0
-Author: Berhe Tesfay [aut, cre] (<berhe.etsay@gmail.com>)
-Maintainer: Berhe Tesfay <berhe.etsay@gmail.com>
-Description: Provides functions and RStudio add-ins to insert emojis directly into 
-    R scripts, R Markdown, and Quarto documents. Includes shortcut support, a master 
-    emoji list, and Git commit emoji helpers.
+Authors@R: person(given = "Berhe Etsay",
+                    family = "Tesfay",
+                    role = c("aut", "cre"),
+                    email = "berhe.etsay@gmail.com",
+                    comment = "<berhe.etsay@gmail.com>")
+Maintainer: Berhe Etsay Tesfay <berhe.etsay@gmail.com>
+Description: Provides functions that help to insert emojis at the cursor position of an active R document.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -15,12 +17,13 @@ Depends:
     R (>= 4.4)
 Imports:
     rstudioapi,
-    shiny
+    shiny,
+    shinyjs
 Suggests:
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    mockery
 URL: https://github.com/3p1d3m/Rmoji
 BugReports: https://github.com/3p1d3m/Rmoji/issues
-VignetteBuilder: knitr
 Config/testthat/edition: 3

@@ -15,5 +15,5 @@ A Shiny-based GUI with a searchable dropdown will appear, allowing the user to s
 Once an emoji is selected, it will be inserted at the cursor's position in the active editor.
 }
 \examples{
-# Use this addin by running insert_emoji_addin() from the RStudio Addins menu.
+# Use this addin by running shiny_emoji() from the RStudio Addins menu.
 }

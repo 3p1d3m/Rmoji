@@ -50,3 +50,5 @@ covr/
 *_files/
 *_cache/
 inst/doc
+/doc/
+/Meta/

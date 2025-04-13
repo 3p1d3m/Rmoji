@@ -4,17 +4,16 @@
 \alias{insert_emoji}
 \title{Insert Emoji into R Script}
 \usage{
-insert_emoji(name)
+insert_emoji(name, default = NULL)
 }
 \arguments{
-\item{name}{The name of the emoji (e.g. "smile").}
+\item{name}{The name of the emoji (case-insensitive).}
+
+\item{default}{A default emoji to use if the name is not found.}
 }
 \value{
-Inserts the emoji at cursor in RStudio.
+The emoji used (invisibly).
 }
 \description{
-Inserts an emoji by name from the emoji_dict.
-}
-\examples{
-# insert_emoji("start")
+Inserts an emoji by name from the emoji_dict into RStudio.
 }
