@@ -9,4 +9,4 @@
 
 ## Improvements
 - Clean and minimal UI in the shiny add-in
-- Shiny addin has now updated to insert emoji and stop, with out wasting time to click insert emoji button and clossing popup with the clicking ❌ 
+- Shiny addin has now updated to insert emoji and stop shiny without wasting time to click insert emoji button and clossing shiny app mannualy by clicking ❌ 
