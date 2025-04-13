@@ -36,7 +36,7 @@ emoji_dict <- list(
   lion = "\U0001F981",
 
   # Objects and Things
-  heart = "\U00002764",
+  heart = "\u2764\ufe0f",
   star = "\U00002B50",
   gift = "\U0001F381",
   lightbulb = "\U0001F4A1",

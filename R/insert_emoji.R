@@ -1,20 +1,24 @@
 
 #' Insert Emoji into R Script
 #'
-#' Inserts an emoji by name from the emoji_dict.
+#' Inserts an emoji by name from the emoji_dict into RStudio.
 #'
-#' @param name The name of the emoji (e.g. "smile").
-#'
-#' @return Inserts the emoji at cursor in RStudio.
+#' @param name The name of the emoji (case-insensitive).
+#' @param default A default emoji to use if the name is not found.
+#' @return The emoji used (invisibly).
 #' @export
-#'
-#' @examples
-#' # insert_emoji("start")
-insert_emoji <- function(name) {
+insert_emoji <- function(name, default = NULL) {
+  name <- tolower(name)
   if (!name %in% names(emoji_dict)) {
-    stop("Emoji name not found.")
+    if (!is.null(default)) {
+      rstudioapi::insertText(text = default)
+      return(invisible(default))
+    } else {
+      stop("Emoji name not found.")
+    }
   }
   emoji <- emoji_dict[[name]]
   rstudioapi::insertText(text = emoji)
+  invisible(emoji)
 }
 

@@ -6,40 +6,51 @@
 #'
 #' @return Inserts the selected emoji at the cursor position in the active R script or R Markdown document.
 #' @export
-#' @import shiny
+#' @importFrom shiny fluidPage titlePanel selectizeInput verbatimTextOutput actionButton
+#' @importFrom shiny renderText observeEvent req runGadget dialogViewer stopApp
+#' @importFrom shinyjs useShinyjs runjs
+#' @importFrom rstudioapi insertText
 #'
 #' @examples
-#' # Use this addin by running insert_emoji_addin() from the RStudio Addins menu.
+#' # Use this addin by running shiny_emoji() from the RStudio Addins menu.
 shiny_emoji <- function() {
-  # Load emoji dictionary from Masterlist.R
-  source("R/emoji_masterlist.R")  # Use relative path
-
-  ui <- fluidPage(
-    titlePanel("Insert Emoji"),
-    selectizeInput(
+  ui <- shiny::fluidPage(
+    shinyjs::useShinyjs(),  # Initialize shinyjs
+    shiny::titlePanel("Insert Emoji"),
+    shiny::selectizeInput(
       inputId = "emoji_select",
       label = "Search for an emoji:",
       choices = names(emoji_dict),
       options = list(placeholder = 'Type to search...')
     ),
-    verbatimTextOutput("emoji_preview"),
-    actionButton("insert_button", "Insert Emoji")
+    shiny::verbatimTextOutput("emoji_preview"),
+    shiny::actionButton("insert_button", "Insert Emoji")
   )
 
   server <- function(input, output, session) {
-    output$emoji_preview <- renderText({
+    output$emoji_preview <- shiny::renderText({
       req(input$emoji_select)
       emoji_dict[[input$emoji_select]]
     })
 
-    observeEvent(input$insert_button, {
+    shiny::observeEvent(input$insert_button, {
       emoji <- emoji_dict[[input$emoji_select]]
       if (!is.null(emoji)) {
         rstudioapi::insertText(text = emoji)
+        shiny::stopApp()  # Close the Shiny app (pop-up) after insertion
       }
     })
+
+    # Add JavaScript to listen for the Enter key press
+    shinyjs::runjs("
+      $(document).on('keypress', function(e) {
+        if (e.which == 13) {  // Enter key code
+          $('#insert_button').click();  // Trigger the action button click
+        }
+      });
+    ")
   }
 
-  # Launch the Shiny app as the addin
   shiny::runGadget(ui, server, viewer = shiny::dialogViewer("Insert Emoji"))
+  invisible(NULL)
 }
