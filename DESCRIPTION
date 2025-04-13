@@ -23,7 +23,8 @@ Suggests:
     knitr,
     rmarkdown,
     testthat (>= 3.0.0),
-    mockery
+    mockery,
+    devtools
 URL: https://github.com/3p1d3m/Rmoji
 BugReports: https://github.com/3p1d3m/Rmoji/issues
 Config/testthat/edition: 3
