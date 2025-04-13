@@ -9,7 +9,4 @@
 
 ## Improvements
 - Clean and minimal UI in the shiny add-in
-
-# Rmoji 0.1.1
-
 - Shiny addin has now updated to insert emoji and stop, with out wasting time to click insert emoji button and clossing popup with the clicking ❌ 
