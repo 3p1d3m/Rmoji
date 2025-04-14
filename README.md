@@ -19,15 +19,19 @@ To install the development version from your local folder or GitHub:
 
 # ✨ Features
 
-`insert_emoji()` – Inserts emojis with name-based auto completion.
+`` 🔹`insert_emoji()` – Inserts emojis with name-based auto completion. ``
 
-`insert_emoji_addin()` – A GUI addin to select and insert emojis.
+`` 🔹`insert_emoji_subset` - To subset the the first/last n, number of emojies. ``
 
-`emoji_shortcut()` – Add to RStudio keyboard shortcuts.
+`` 🔹`insert_emoji_addin()` – A GUI addin to select and insert emojis. ``
 
-`git_emoji("fire")` – Easily add emojis to your Git commit messages.
+`` 🔹`emoji_shortcut()` – Add to RStudio keyboard shortcuts. ``
 
-`emoji_list()` – View the full emoji dictionary.
+`` 🔹`git_emoji()` – Easily add emojis to your Git commit messages. ``
+
+`` 🔹`emoji_list()` – View the full emoji dictionary. ``
+
+`` 🔹`shiny_emoji ()` - shiny addin with drop down option ``
 
 # 🔧 Example Usage
 
