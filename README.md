@@ -1,4 +1,3 @@
-
 # ![](inst/images/package_logo.png)
 
 The **Rmoji** package makes it easy to insert emojis 😎 into your R scripts, R Markdown, Quarto documents and your shiny dashboards and websites. It’s a fun and expressive way to enhance your code, reports, and git commits!
