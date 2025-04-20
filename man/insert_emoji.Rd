@@ -17,3 +17,9 @@ The emoji used (invisibly).
 \description{
 Inserts an emoji by name from the emoji_dict into RStudio.
 }
+\examples{
+if (interactive()) {
+  insert_emoji("smile")
+  insert_emoji("notarealemoji", default = "?")
+}
+}

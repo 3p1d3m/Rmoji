@@ -16,7 +16,7 @@ A named character vector of emojis.
 Get emoji(s) for Git commit messages by name.
 }
 \examples{
-# git_emoji("fire")
-# git_emoji(c("fire", "heart"))
-# git_emoji(c("Ethiopia", "UK", "Kenya"))
+git_emoji("fire")
+git_emoji(c("fire", "heart"))
+try(git_emoji(c("Ethiopia", "UK", "Kenya")))
 }

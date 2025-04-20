@@ -8,9 +8,9 @@
 #' @export
 #'
 #' @examples
-#' # git_emoji("fire")
-#' # git_emoji(c("fire", "heart"))
-#' # git_emoji(c("Ethiopia", "UK", "Kenya"))
+#' git_emoji("fire")
+#' git_emoji(c("fire", "heart"))
+#' try(git_emoji(c("Ethiopia", "UK", "Kenya")))
 git_emoji <- function(name) {
   missing <- setdiff(name, names(emoji_dict))
 

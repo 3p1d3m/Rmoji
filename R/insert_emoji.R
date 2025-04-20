@@ -7,6 +7,12 @@
 #' @param default A default emoji to use if the name is not found.
 #' @return The emoji used (invisibly).
 #' @export
+#'
+#' @examples
+#' if (interactive()) {
+#'   insert_emoji("smile")
+#'   insert_emoji("notarealemoji", default = "?")
+#' }
 insert_emoji <- function(name, default = NULL) {
   name <- tolower(name)
   if (!name %in% names(emoji_dict)) {

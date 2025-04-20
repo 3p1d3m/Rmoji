@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' # emoji_list()
+#' emoji_list()
 #'
 emoji_list <- function() {
   cat("Available Emojis in Rmoji\n\n")

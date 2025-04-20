@@ -18,6 +18,8 @@ insert_emoji_addin <- function(test_input = NULL) {
     )
   }
 
+  emoji_name <- tolower(emoji_name)
+
   if (!is.null(emoji_name) && emoji_name %in% names(emoji_dict)) {
     emoji <- emoji_dict[[emoji_name]]
     if (is.null(test_input)) {
@@ -29,3 +31,12 @@ insert_emoji_addin <- function(test_input = NULL) {
     return(NULL)
   }
 }
+#' @examples
+#' # Interactive Example: Will prompt the user to enter an emoji name in RStudio
+#' # The function will insert the emoji at the cursor position if the name is valid.
+#' if (interactive()) {
+#'   insert_emoji_addin()  # Prompts for emoji name input in RStudio
+#' }
+#'
+#' # Non-interactive Example: For testing purposes, inserts a predefined emoji
+#' insert_emoji_addin(test_input = "smile")  # Inserts the smile emoji

@@ -13,5 +13,7 @@ Opens addin popup for emoji selection.
 Designed to be bound to a keyboard shortcut.
 }
 \examples{
-# emoji_shortcut()
+if (interactive()) {
+  emoji_shortcut()
+}
 }

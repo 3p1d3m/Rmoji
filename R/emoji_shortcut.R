@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
-#' # emoji_shortcut()
+#' if (interactive()) {
+#'   emoji_shortcut()
+#' }
 emoji_shortcut <- function() {
   insert_emoji_addin()
 }

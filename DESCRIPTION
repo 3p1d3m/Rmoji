@@ -1,14 +1,22 @@
 Package: Rmoji
 Type: Package
-Title: Insert Emojis in R Scripts and Documents
+Title: Insert Emojis in 'R' Scripts and Documents
 Version: 0.1.0
-Authors@R: person(given = "Berhe Etsay",
-                    family = "Tesfay",
-                    role = c("aut", "cre"),
-                    email = "berhe.etsay@gmail.com",
-                    comment = "<berhe.etsay@gmail.com>")
+Authors@R: person(
+    given = "Berhe Etsay",
+    family = "Tesfay",
+    role = c("aut", "cre"),
+    email = "berhe.etsay@gmail.com",
+    comment = c(ORCID = "0000-0002-4625-1265"))
 Maintainer: Berhe Etsay Tesfay <berhe.etsay@gmail.com>
-Description: Provides functions that help to insert emojis at the cursor position of an active R document.
+Description: The 'Rmoji'package provides an intuitive and user-friendly interface for working with emojis in 'R'. 
+    It allows users to search, insert, and manage emojis by keyword, category, or through an interactive 
+    Shiny-based dropdown. The package supports emoji auto-completion in 'RStudio' and enables the integration 
+    of emojis into R scripts, RMarkdown, Quarto, Shiny apps, and even 'ggplot2' plots. 
+    'Rmoji' also includes built-in mappings for Git commit messages, making it useful for version control. 
+    It builds on established emoji libraries and Unicode standards, adding expressiveness and visual cues 
+    to documentation, user interfaces, and reports. For more details see, 'Emojipedia' (2024) <https://emojipedia.org> and 
+    GitHub Emoji Cheat Sheet <https://github.com/ikatyang/emoji-cheat-sheet/tree/master>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

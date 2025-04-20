@@ -12,6 +12,9 @@
 #' @importFrom rstudioapi insertText
 #'
 #' @examples
+#' if (interactive()) {
+#'   shiny_emoji()
+#' }
 #' # Use this addin by running shiny_emoji() from the RStudio Addins menu.
 shiny_emoji <- function() {
   ui <- shiny::fluidPage(

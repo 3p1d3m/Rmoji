@@ -8,3 +8,9 @@ Description: Opens popup to insert emoji
 Binding: shiny_emoji
 Interactive: true
 Keyboard Shortcut: Shift+E
+
+
+Name: Insert Emoji by Name
+Description: Insert an emoji into the R script using its name.
+Binding: insert_emoji
+Interactive: true

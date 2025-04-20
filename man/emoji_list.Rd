@@ -13,6 +13,6 @@ prints the name of the emoji and the emoji image in the console
 Prints all emoji names with their corresponding emoji symbols from the master list.
 }
 \examples{
-# emoji_list()
+emoji_list()
 
 }
