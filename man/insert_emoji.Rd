@@ -2,7 +2,7 @@
 % Please edit documentation in R/insert_emoji.R
 \name{insert_emoji}
 \alias{insert_emoji}
-\title{Insert Emoji into R Script}
+\title{Insert Emoji into R Script using a function}
 \usage{
 insert_emoji(name, default = NULL)
 }
@@ -15,7 +15,7 @@ insert_emoji(name, default = NULL)
 The emoji used (invisibly).
 }
 \description{
-Inserts an emoji by name from the emoji_dict into RStudio.
+Inserts an emoji by name from the emoji_dict through writing the function in the cursor position of the Rstudio Document.
 }
 \examples{
 if (interactive()) {

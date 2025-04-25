@@ -1,4 +1,4 @@
-#' Insert Emoji Addin for RStudio (with Searchable Dropdown)
+#' Shiny app with drop-down option, it runs from addins and using shortcut.
 #'
 #' This RStudio addin allows users to easily insert emojis by name into their R scripts, R Markdown, or Quarto documents.
 #' A Shiny-based GUI with a searchable dropdown will appear, allowing the user to select an emoji.

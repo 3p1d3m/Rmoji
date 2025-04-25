@@ -2,7 +2,7 @@
 % Please edit documentation in R/insert_emoji_addin.R
 \name{insert_emoji_addin}
 \alias{insert_emoji_addin}
-\title{Insert Emoji Addin for RStudio}
+\title{For an R studio addin dropdown to insert emoji}
 \usage{
 insert_emoji_addin(test_input = NULL)
 }
@@ -13,5 +13,5 @@ insert_emoji_addin(test_input = NULL)
 Inserted emoji or NULL
 }
 \description{
-Insert Emoji Addin for RStudio
+For an R studio addin dropdown to insert emoji
 }

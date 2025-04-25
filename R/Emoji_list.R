@@ -1,4 +1,4 @@
-#' List All Available Emojis
+#'  Print list of All Available Emoji names and actual emojis in the console
 #'
 #' Prints all emoji names with their corresponding emoji symbols from the master list.
 #'

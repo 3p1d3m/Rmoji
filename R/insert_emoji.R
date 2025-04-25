@@ -1,7 +1,6 @@
-
-#' Insert Emoji into R Script
+#' Insert Emoji into R Script using a function
 #'
-#' Inserts an emoji by name from the emoji_dict into RStudio.
+#' Inserts an emoji by name from the emoji_dict through writing the function in the cursor position of the Rstudio Document.
 #'
 #' @param name The name of the emoji (case-insensitive).
 #' @param default A default emoji to use if the name is not found.

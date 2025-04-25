@@ -1,4 +1,4 @@
-#' Emoji for Git Commit
+#' Emoji for Git Commit message with emoji
 #'
 #' Get emoji(s) for Git commit messages by name.
 #'

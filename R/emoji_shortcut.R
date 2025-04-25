@@ -1,4 +1,4 @@
-#' Emoji Shortcut Function
+#' Emoji Shortcut Function (to work with keyboard shortcut)
 #'
 #' Designed to be bound to a keyboard shortcut.
 #'

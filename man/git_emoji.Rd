@@ -2,7 +2,7 @@
 % Please edit documentation in R/git_emoji.R
 \name{git_emoji}
 \alias{git_emoji}
-\title{Emoji for Git Commit}
+\title{Emoji for Git Commit message with emoji}
 \usage{
 git_emoji(name)
 }

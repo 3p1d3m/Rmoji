@@ -2,7 +2,7 @@
 % Please edit documentation in R/emoji_shortcut.R
 \name{emoji_shortcut}
 \alias{emoji_shortcut}
-\title{Emoji Shortcut Function}
+\title{Emoji Shortcut Function (to work with keyboard shortcut)}
 \usage{
 emoji_shortcut()
 }

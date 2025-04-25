@@ -1,4 +1,4 @@
-#' Insert Emoji Addin for RStudio
+#' For an R studio addin dropdown to insert emoji
 #'
 #' @param test_input For internal testing. If supplied, this will be used instead of prompting the user.
 #' @return Inserted emoji or NULL

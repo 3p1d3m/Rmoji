@@ -8,11 +8,13 @@
 #' @usage data(emoji_dict)
 #' @format A named list of emoji names and corresponding Unicode symbols.
 #' @examples
-#' # data(emoji_dict)
-#' # head(emoji_dict)
+#' data(emoji_dict)
+#' head(emoji_dict)
 NULL
 
 emoji_dict <- list(
+
+# Most commonly used emojies
   # Faces and Expressions
   smile = "\U0001F604",
   wink = "\U0001F609",
@@ -108,7 +110,7 @@ emoji_dict <- list(
   bug = "\U0001F41B",
   goat = "\U1F410",
 
-  # Punctuations
+  # Punctuation marks
   Double_Exclamation_Mark = "\U0000203C",
   Exclamation_Question_Mark = "\U00002049",
   Red_Question_Mark = "\U00002753",
@@ -908,8 +910,6 @@ Samoa = "\U1F1F8\U1F1F0",
 Mayotte = "\U1F1FE\U1F1F9",
 `Aland Islands`  = "\U0001F1E6\U0001F1FD"
   )
-
-
 
 # all emojies to lower
 

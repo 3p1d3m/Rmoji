@@ -14,7 +14,7 @@ data(emoji_dict)
 A list of emoji Unicode values with human-friendly names.
 }
 \examples{
-# data(emoji_dict)
-# head(emoji_dict)
+data(emoji_dict)
+head(emoji_dict)
 }
 \keyword{emoji}

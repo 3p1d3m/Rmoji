@@ -2,7 +2,7 @@
 % Please edit documentation in R/Shiny_emoji.R
 \name{shiny_emoji}
 \alias{shiny_emoji}
-\title{Insert Emoji Addin for RStudio (with Searchable Dropdown)}
+\title{Shiny app with drop-down option, it runs from addins and using shortcut.}
 \usage{
 shiny_emoji()
 }

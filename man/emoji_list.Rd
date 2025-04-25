@@ -2,7 +2,7 @@
 % Please edit documentation in R/Emoji_list.R
 \name{emoji_list}
 \alias{emoji_list}
-\title{List All Available Emojis}
+\title{Print list of All Available Emoji names and actual emojis in the console}
 \usage{
 emoji_list()
 }
